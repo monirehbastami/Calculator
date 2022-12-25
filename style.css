@@ -1,0 +1,41 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: #3e4354;
+}
+header{
+    background-color:#82679b;
+    color:whitesmoke;
+    height:10vh;
+    text-align: center;
+    position: relative;
+}
+h1{
+   display: inline-block;
+   vertical-align: middle;
+}
+.screen{
+    display: flex;
+    gap:2%;
+    padding-bottom: 2%;
+}
+.result{
+    flex-shrink: 1;
+    flex-flow: 1;
+    flex-wrap: nowrap;
+}
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    padding:1rem
+}
+.grid-keys{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-items: center;
+    gap:2%
+}
